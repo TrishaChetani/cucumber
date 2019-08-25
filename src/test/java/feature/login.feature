@@ -1,4 +1,8 @@
 Feature: Application Login
+  Background:
+    Given Validate the browser
+    When Browser is triggered
+    Then check if browser is started
 @smoketest
   Scenario: Home page with jin user
     Given User is on landing page

@@ -11,6 +11,24 @@ import java.util.List;
 
 public class stepDefination {
 
+    @Given("^Validate the browser$")
+    public void validate_the_browser()  {
+
+    }
+
+    @When("^Browser is triggered$")
+    public void browser_is_triggered() {
+
+    }
+
+    @Then("^check if browser is started$")
+    public void check_if_browser_is_started()  {
+
+    }
+
+
+
+
     @Given("^User is on landing page$")
     public void user_is_on_landing_page()  {
         System.out.println("user is on landing page");
