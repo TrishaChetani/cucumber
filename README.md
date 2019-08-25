@@ -24,4 +24,8 @@
 - Background (run specific to feature file)
 
 ### Hooks
+- Background
+- Before and after and hooks
+
+### Reports
 
