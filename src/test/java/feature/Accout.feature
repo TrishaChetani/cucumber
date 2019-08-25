@@ -1,11 +1,11 @@
 Feature: Account Login
-@regtest
+@test
   Scenario: Home page with jin user
     Given User is on landing page
     When User login with username and password with "jin" and "1234"
     Then Home page is displayed
     And Cart displayed are "true"
-@smoketest
+@aftertest
   Scenario: Home page with john user
     Given User is on landing page
     When User login with username and password with "john" and "1234"
